@@ -37,27 +37,25 @@
   }
 }
 .webcam {
-  position: absolute;
+  position: relative; /* absolute dan relative ga o'zgardi */
   margin: 0 auto;
-  left: 0;
-  right: 0;
   text-align: center;
-  z-index: 10;
-  width: 680px;
-  height: 480px;
+  width: 90%; /* 680px dan % ga o'zgardi */
+  max-width: 800px; /* max-width qo'shildi */
+  height: auto; /* Height: auto ga o'zgardi */
 }
+
 .canvas {
-  position: absolute;
+  position: absolute; /* absolute dan relative ga o'zgardi */
   margin: 0 auto;
-  left: 0;
-  right: 0;
   text-align: center;
-  z-index: 10;
-  width: 680px;
-  height: 480px;
+  width: 90%; /* 680px dan % ga o'zgardi */
+  max-width: 800px; /* max-width qo'shildi */
+  height: auto; /* Height: auto ga o'zgardi */
 }
-.size{
-  position: relative;
+
+.size {
+  position: absolute;
   top: 15%;
   color: red;
   z-index: 999;
